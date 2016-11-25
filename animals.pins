@@ -1,0 +1,64 @@
+; Fri Nov 25 06:31:34 CET 2016
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([KB_105577_Class10] of  Mammal
+
+	(skin TRUE)
+	(species "Bat")
+	(wings TRUE))
+
+([KB_105577_Class14] of  Fish
+
+	(food TRUE)
+	(gills TRUE)
+	(lay_egg TRUE)
+	(skin TRUE)
+	(species "Salmon")
+	(swim TRUE))
+
+([KB_105577_Class20] of  Fish
+
+	(dangerous TRUE)
+	(gills TRUE)
+	(lay_egg FALSE)
+	(skin TRUE)
+	(species "Shark")
+	(swim TRUE))
+
+([KB_105577_Class23] of  Bird
+
+	(color "yellow")
+	(dangerous FALSE)
+	(fly TRUE)
+	(gills FALSE)
+	(lay_egg TRUE)
+	(skin TRUE)
+	(species "Canary")
+	(wings TRUE))
+
+([KB_105577_Class24] of  Mammal
+
+	(dangerous TRUE)
+	(food TRUE)
+	(skin TRUE)
+	(species "Cow"))
+
+([KB_105577_Class25] of  Bird
+
+	(fly FALSE)
+	(lay_egg TRUE)
+	(skin TRUE)
+	(species "Ostrich")
+	(wings TRUE))
+
+([KB_105577_Class8] of  %3AINSTANCE-ANNOTATION
+
+	(%3ACREATION-TIMESTAMP "2016.11.25 01:24:53.712 CET")
+	(%3ACREATOR "Sigvart"))
+
+([KB_105577_Class9] of  %3AINSTANCE-ANNOTATION
+
+	(%3ACREATION-TIMESTAMP "2016.11.25 01:24:54.522 CET")
+	(%3ACREATOR "Sigvart"))
